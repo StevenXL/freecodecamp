@@ -14,8 +14,8 @@ $(document).ready(function() {
 Pomodoro = {};
 
 // State
-Pomodoro.breakLength = 60;
-Pomodoro.sessionLength = 60;
+Pomodoro.breakLength = 300;
+Pomodoro.sessionLength = 1500;
 Pomodoro.timeLeft = Pomodoro.sessionLength;
 Pomodoro.countdownLive = false;
 Pomodoro.intervalID = undefined;
