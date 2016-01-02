@@ -2,3 +2,8 @@
   background-color: orange;
   color: white;
 }
+
+#output {
+  color: black;
+  text-align: right;
+}
