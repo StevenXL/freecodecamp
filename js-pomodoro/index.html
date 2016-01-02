@@ -10,10 +10,41 @@
 
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
 
   <body>
+    <div class="container">
+
+      <div class="row headline">
+        <div class="col-md-offset-3 col-md-6">
+          <h1 class="text-center">FreeCodeCamp - Pomodoro Challenge</h1>
+        </div>
+      </div>
+
+      <div class="row controls">
+        <div class="col-md-offset-3 col-md-3">
+          <p class="text-center">Break Length</p>
+          <p class="text-center"><i id="increase-break" class="fa fa-plus
+            fa-2"></i> <span class="break-time">1</span> <i id="decrease-break" class="fa fa-minus
+            fa-2"></i></p>
+        </div>
+        <div class="col-md-3">
+          <p class="text-center">Session Length</p>
+          <p class="text-center"><i id="increase-session" class="fa fa-plus
+            fa-2"></i> <span class="session-time">1</span> <i id="decrease-session" class="fa fa-minus
+            fa-2"></i></p>
+        </div>
+      </div>
+
+      <div class="row clock">
+        <div class="col-md-offset-3 col-md-6">
+        </div>
+      </div>
+
+    </div>
+
     <script src="js/jquery-2.1.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
