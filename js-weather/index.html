@@ -8,7 +8,6 @@
 
     <title>JavaScript Weather</title>
 
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -16,6 +15,25 @@
 
   <body>
     <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">FreeCodeCamp - Weather API Challenge</p>
+        </div>
+      </div>
+
+      <div class="row main-info">
+        <div class="col-md-offset-4 col-md-2">
+          <img class="block-center" id="weather-icon" src="" alt="">
+          <p id="temperature"></p>
+        </div>
+        <div class="col-md-2">
+          <p id="wind-speed"></p>
+          <p id="wind-unit"></p>
+        </div>
+        <div class="col-md-1">
+          <button id="units-toggle" class="btn btn-lg btn-default">Switch to Metric</button>
+        </div>
+      </div>
     </div>
 
     <script src="js/jquery-2.1.4.min.js"></script>

@@ -1,0 +1,10 @@
+body {
+  color: white;
+  font-size: 2.5em;
+  height: 700px;
+  width: 100%;
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
+  padding-top: 5%;
+}
