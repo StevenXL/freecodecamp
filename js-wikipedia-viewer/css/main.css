@@ -1,0 +1,24 @@
+body {
+  background-color: #4A7B7F;
+}
+
+.large-margin {
+  margin-top: 400px;
+}
+
+.small-margin {
+  margin-top: 50px;
+}
+
+#search-input {
+  color: #717E7F;
+  margin-top: 10px;
+}
+
+#search-prompt {
+  margin-top: 10px;
+}
+
+.results {
+  margin-top: 10px;
+}

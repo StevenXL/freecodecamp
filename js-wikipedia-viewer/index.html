@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="JavaScript Weather">
 
-    <title>JavaScript Camper News</title>
+    <title>JavaScript Wikipedia Viewer</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -14,7 +14,23 @@
   </head>
 
   <body>
-    <div id="posts" class="container">
+    <div class="container">
+      <div class="search">
+        <div class="row">
+          <div class="col-md-offset-5 col-md-1">
+            <i id="search-icon" class="large-margin fa fa-search fa-3x"></i>
+          </div>
+        </div>
+        <div id="search-com" class="row text-center">
+          <div class="col-md-offset-4 col-md-3">
+            <div class="initial-prompt">
+              <p id="search-prompt" class="">Click Icon to Search</p>
+              <p>OR</p>
+              <button id="random" class="btn btn-default">Random Page</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script src="js/jquery-2.1.4.min.js"></script>
