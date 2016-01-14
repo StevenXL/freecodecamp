@@ -1,0 +1,17 @@
+{
+  "name": "how-to-npm-tutorial",
+  "version": "0.0.3",
+  "description": "Tutorial for how-to-npm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "stevenxl",
+    "how-to-npm"
+  ],
+  "author": "Steven Leiva",
+  "license": "ISC",
+  "dependencies": {},
+  "repository": "www.stevenleiva.com"
+}
