@@ -5,5 +5,7 @@ var express = require('express'),
     app     = express();
 
 
+routes(app);
+
 app.use('/public', express.static(process.cwd() + '/public'));
 app.use('/controllers', express.static(process.cwd() + '/app/controllers'));
